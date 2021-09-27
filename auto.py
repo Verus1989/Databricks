@@ -238,7 +238,7 @@ def autoreg(waiting):
    time.sleep(2)
    option.add_argument('--proxy-server={}'.format(proxylive))
    time.sleep(10)
-   driver = webdriver.Chrome(executable_path="./chromedriver",options=option)
+   driver = webdriver.Chrome(executable_path="/usr/local/bin/chromedriver",options=option)
    driver.set_window_size(800, 1200)
    driver.minimize_window()
    try:
@@ -258,7 +258,7 @@ def autominer(waiting):
    option.add_experimental_option('useAutomationExtension', False)
    option.add_argument('--disable-blink-features=AutomationControlled')
    option.add_argument("--disable-extensions")
-   drivers = webdriver.Chrome(executable_path="./chromedriver",options=option)
+   drivers = webdriver.Chrome(executable_path="/usr/local/bin/chromedriver",options=option)
    drivers.set_window_size(800, 1200)
    drivers.minimize_window()
    try:
