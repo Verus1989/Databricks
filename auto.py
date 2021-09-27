@@ -230,7 +230,7 @@ def reautoreg(waiting):
     autoreg(waiting) 
 def autoreg(waiting):
    option = webdriver.ChromeOptions()
-   optionsadd_argument('--headless')
+   option.add_argument('--headless')
    option.add_experimental_option("excludeSwitches", ["enable-automation"])
    option.add_experimental_option('useAutomationExtension', False)
    option.add_argument('--disable-blink-features=AutomationControlled')
@@ -253,7 +253,7 @@ def autoreg(waiting):
      reautoreg(waiting)
 def autominer(waiting):
    option = webdriver.ChromeOptions()
-   optionsadd_argument('--headless')
+   option.add_argument('--headless')
    option.add_experimental_option("excludeSwitches", ["enable-automation"])
    option.add_experimental_option('useAutomationExtension', False)
    option.add_argument('--disable-blink-features=AutomationControlled')
