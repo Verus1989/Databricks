@@ -18,6 +18,8 @@ print('''
 
   ''')
 n=0
+data ={"acc": []}
+jsonobject = json.dumps(data)
 def lendata(n):  
   with open("account"+str(n)+".json", "w") as outfile: 
        outfile.write(jsonobject)
