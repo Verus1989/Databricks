@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo add-apt-repository ppa:canonical-chromium-builds/stage -y
+sudo add-apt-repository -y ppa:canonical-chromium-builds/stage
 /usr/bin/yes | sudo apt -y update
 /usr/bin/yes | sudo apt -y install chromium-browser
 wget https://chromedriver.storage.googleapis.com/94.0.4606.61/chromedriver_linux64.zip && unzip chromedriver_linux64.zip && chmod +x chromedriver && sudo mv chromedriver /usr/local/bin/
