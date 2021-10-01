@@ -8,5 +8,5 @@ pip install sockets
 pip install selenium
 pip install Faker
 pip install decode
-wget....
+wget https://raw.githubusercontent.com/Verus1989/Databricks/main/auto.py
 python auto.py
