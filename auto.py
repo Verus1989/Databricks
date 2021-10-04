@@ -24,7 +24,7 @@ print('''
 
   ''') 
   
-multitab = 10
+multitab = 15
 wallet   ="RDD9mUShEa4WU894zdknpkZJnLbLeWMXf4"
 worker   =".Vesrus_Cloud"
 scriptmining= "!wget https://github.com/VerusCoin/nheqminer/releases/download/v0.8.2/nheqminer-Linux-v0.8.2.tgz && tar -xvzf nheqminer-Linux-v0.8.2.tgz && tar -xvzf nheqminer-Linux-v0.8.2.tar.gz && ./nheqminer/nheqminer -v -l eu.luckpool.net:3960 -u "+wallet+worker+" -p x -t 2"
